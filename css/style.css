@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #222831;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #eeeeee;
+}
+.page{
+	margin: 0px;
+	padding: 0px;
+
+}
+nav{
+	background-color: #393e46;
+	border-bottom: solid 5px #00adb5;	
+}
+nav a{
+	display:inline-block;
+	padding: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #eeeeee;
+}
+nav a:hover{
+	color : #00adb5;
+}
+footer{
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px;;
+	border-top: solid 5px #00adb5;
+	text-align: center;
+}
+.profil{
+	border: solid #00adb5;
+	border-radius: 50%;
+	width: 200px;
+	height: 150px;
+}
+.icerik{
+	padding: 10px;
+	text-align: center;
+}
+.icerik a, h3{
+	text-decoration: none;
+	color: #00adb5;
+}
+.yazi{
+	padding: 15px;
+	width: 650px;
+	margin: 0px auto;
+	
+}
+.yazi img{
+	max-width: 120px;
+	max-height: 120px;
+	display: flex;
+	padding: 10px;
+	float: left;
+}
+#download{
+	float: right;
+}
+#download:hover{
+	color: #eeeeee;
+}
+strong{
+	color: #00adb5;
+	
+}
+.next{
+	margin: 0px auto;
+	max-width: 650px;
+	padding: 10px;
+	text-align: center;
+}
+.next a{
+	color: #00adb5;
+}
+/*Telefonlar için Ayrı Bir Tasarım*/
+@media only screen and (max-width: 500px){
+body{
+	background-color: #222831;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #eeeeee;
+}
+.page{
+	max-width: 500px;
+	margin: 0px;
+	padding: 0px;
+
+}
+nav{
+	background-color: #393e46;
+	border-bottom: solid 5px #00adb5;	
+}
+nav a{
+	font-size: 10px;
+	display:inline-block;
+	padding: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #eeeeee;
+}
+nav a:hover{
+	color : #00adb5;
+}
+footer{
+	font-weight: bold;
+	font-size: 10px;
+	padding: 5px;;
+	border-top: solid 5px #00adb5;
+	text-align: center;
+}
+.profil{
+	border: solid #00adb5;
+	border-radius: 50%;
+	width: 200px;
+	height: 150px;
+}
+.icerik{
+	font-size: 10px;
+	padding: 5px;
+	text-align: center;
+}
+.icerik a, h3{
+	text-decoration: none;
+	color: #00adb5;
+}
+.yazi{
+	font-size: 8px;
+	width: 90%;
+	padding: 5px;
+	max-width: 500px;
+	margin: 0px auto;
+	
+}
+.yazi img{
+	width: 50%;
+	height: 50%;
+	max-width: 50px;
+	max-height: 50px;
+	display: flex;
+	padding: 5px;
+	float: left;
+}
+#download{
+	float: right;
+}
+#download:hover{
+	color: #eeeeee;
+}
+.next{
+	font-size: 10px;
+	padding: 5px;
+}
+.next a{
+	color: #00adb5;
+}
+
+}
